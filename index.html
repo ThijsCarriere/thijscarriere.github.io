@@ -66,34 +66,33 @@ a.textlink:visited{
 
 h2{
   color: black;
-  margin-left:100px;
   font-family: "Rockwell";
   text-align: left;
 }
 
+h2.welcome{
+    color: black;
+  margin-left:130px;
+  font-family: "Rockwell";
+  text-align: left;
+}
 p.welcometext{
-  margin-left:100px;
+  margin-left:130px;
   margin-right:100px;
   border: none;
   font-family: "Rockwell";
   line-height: 1.3;
   text-align: left;
+  width: 500px;
 }
 
-.gitlogo img{
-  float: left;
-}
-
-.gitlogo div{
-  float: left;
-}
-
-#one{
+#wrapper .first{
   float:left;
-  width: 300px;
+  text-align: center;
+  width: 200px;
 }
 
-#two{
+#wrapper .second{
   float:left;
   overflow: hidden;
 }
@@ -101,7 +100,10 @@ p.welcometext{
 #wrapper{
   overflow: auto;
   display:flex;
-  width: 800px;
+}
+
+#wrapper .col{
+  float:left;
 }
 
 #nametitle{
@@ -112,6 +114,7 @@ p.welcometext{
 #welcometext2{
   margin-left: 50px;
   text-align: center;
+  font-family:"Rockwell";
 }
 
 #aboutmetitle{
@@ -145,6 +148,16 @@ h1{
   float:left;
 }
 
+h3{
+  font-family: "Rockwell";
+}
+
+p.summation{
+  font-family: "Rockwell";
+  line-height: 2;
+  font-size: 17;
+}
+
 </style>
 </head>
 
@@ -168,12 +181,15 @@ h1{
 
 <p id="welcometext2"> Visit my <a class="textlink" href= "https://github.com/ThijsCarriere"> <b>Github</b> </a> to see what I've worked on.</p>
 </div>
-<div class="second">
-  <h2> Welcome! </h2>
+<div class="col">
+  <h2 class="welcome"> Welcome! </h2>
  <p class="welcometext"> 
  I'm Thijs Carri&egrave;re. Currently I'm a second year research Master's student, following the programme <i><a class="textlink" href="https://www.uu.nl/masters/en/methodology-and-statistics-behavioural-biomedical-and-social-sciences">Methodology and Statistics for the Behavioural, Biomedical and Social Sciences</a></i> at Utrecht University. <br> <br>
-In this programme I learned all about the best statistical techniques and state of the art methodology of research in the social sciences. Before this Masters, I did my Bachelors in psychology. These two combined prepare me to be able to add my share to research.
- </p>
+In this programme I learned all about the best statistical techniques and state of the art methodology of research in the social sciences. Before this Masters, I did my Bachelors in psychology. These two combined prepare me to be able to add my share in research.</p>
+</div>
+<div class="col">
+  <h2> Interests </h2>
+  <p class="summation"> - Psychometrics <br> - Differential Item Functioning <br> - Psychology <br> - Programming (in R)</p>
 </div>
 </div>
   
