@@ -19,14 +19,12 @@ img{
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #000000;
-  width:100%
-  height: 100%;
-  overflow: hidden;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 5px;
+  overflow: auto;
+  margin: 5px;
+  margin-left: 5px;
   border: 1px solid black;
   position: fixed;
+  width: 97vw;
 }
 
 #solid{
@@ -51,9 +49,9 @@ img{
 }
 
 /* Add a color to the active/current link */
-.topnav a:active {
-  background-color:#17121285;
-  color: white;
+.topnav a.active {
+  background-color:#ddd;
+  color: black;
 }
 
 a.textlink:link{
@@ -180,7 +178,7 @@ h1{
   <p id="spaceblock"></p>
   <a href="../index.html">Home</a>
   <a href="experience.html">Experience & CV</a>
-  <a class="active" href="publications_talks.html">Publications & Talks</a>
+  <a href="publications_talks.html">Publications & Talks</a>
   <a class="active">Contact</a>
   <a href="about.html">About</a>
 </div>
